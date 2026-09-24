@@ -1,0 +1,29 @@
+{
+  "name": "agent-group-chat",
+  "version": "1.0.0",
+  "description": "多厂商模型群聊编排台 — Multi-Vendor LLM Group Chat Desktop (Electron)",
+  "main": "main.js",
+  "author": "刘卫星",
+  "license": "MIT",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder"
+  },
+  "devDependencies": {
+    "electron": "^31.7.7",
+    "electron-builder": "^24.13.3"
+  },
+  "build": {
+    "appId": "com.liuweixing.agentgroupchat",
+    "productName": "AgentGroupChat",
+    "directories": { "output": "dist" },
+    "files": ["main.js", "app/**/*", "build/**/*"],
+    "win": {
+      "target": ["portable"],
+      "icon": "build/icon.ico"
+    },
+    "portable": {
+      "artifactName": "AgentGroupChat-Portable.exe"
+    }
+  }
+}
