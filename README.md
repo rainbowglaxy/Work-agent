@@ -50,3 +50,9 @@ npm run build
 ## License
 
 MIT
+
+## Maintainer and security
+
+Created and maintained by **Weixing Liu (刘卫星)**, GitHub **[rainbowglaxy](https://github.com/rainbowglaxy)**. I maintain the project and handle security reports, dependency maintenance, and security fixes.
+
+See [SECURITY.md](SECURITY.md) for the security reporting policy and the scope of defensive security review.
